@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitab Formu</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Kitab oxumaq hər yaşda vacibdir</h1>
+        <label for="book-name">Kitabın adı</label>
+        <input type="text" id="book-name" placeholder="ad">
+
+        <label for="book-price">Kitabın qiyməti</label>
+        <input type="text" id="book-price" placeholder="qiymət">
+
+        <label for="book-author">Kitabın müəllifi</label>
+        <input type="text" id="book-author" placeholder="müəllif">
+
+        <label for="book-topic">Kitabın mövzusu</label>
+        <input type="text" id="book-topic" placeholder="Mövzu">
+
+        <button onclick=" fo()">Təsdiqlə</button>
+
+        <label>Müəllifə uyğun axtarış et</label>
+        <select id="author-search">
+            <option value="Samed vurgun" >Səməd Vurğun</option>
+            <option value="Mirze elekber sabir">MIrze elekber sabir</option>
+            <option value="Qaraqan">Qaragan</option>
+        </select>
+
+         <button onclick="fr()">Yoxla</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
