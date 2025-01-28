@@ -59,9 +59,13 @@ class Book {
    
 }
 function fo() {
+  
     kitab= new Book (document.getElementById("book-name").value,document.getElementById("book-price").value,document.getElementById("book-author").value,document.getElementById("book-topic").value);
+   
+     
     kitaplar.push(kitab);
      return console.log(kitaplar);
+   
 }
 function fr() {
     let  authorsay=0;
